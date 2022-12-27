@@ -11,8 +11,8 @@
         div is used as a container
     -->
     <div>
-        <h1>Get Decked!</h1>
-        <h4>Input two favorite cards, get a full deck recommendation!</h4>
+        <h1 id="centered">Get Decked!</h1>
+        <h4 id="centered">Input two favorite cards, get a full deck recommendation!</h4>
 
         <!--
         <p>paragraphs are cool! laurem ipsum yes but this is a long paragraph about why I like eggs. eggs are cool and all but i also like to eat wild eggs. they're different. they're not like other eggs. there's something about them that's so exotic. they make me feel special.</p>
@@ -30,23 +30,27 @@
         <!--
             type attribute can also be time, date, color, file, submit button!!! 
         -->
-        <h1>Some popular clash royale cards: </h1>
-        <ol>
-            <li>Skarmy
-                <img src="https://preview.redd.it/90mjr2jyp4zz.jpg?auto=webp&s=a9f858e3a1fb71e9516f1346b8140f2df5a45945" width="2%">
-            </li>
-            <li>THE Log
-                <img src="https://static.wikia.nocookie.net/clashroyale/images/4/4d/TheLogCard.png/revision/latest?cb=20171212203703" width="12%">
-            </li>
-            <li>Valkyrie
-                <img src="https://cdn.royaleapi.com/static/img/cards/valkyrie.png?t=2d912e5fc" width="12%">
-            </li>
-        </ol>
-        <input type="text" placeholder="Enter a favorite card">
-        <input type="text" placeholder="Enter another favorite card">
-        <button> 
-            Deck me out! 
-        </button>
+        <h1 id="centered">Some popular clash royale cards</h1>
+        <div id="list">
+            <ol>
+                <li id="list-item">Skarmy
+                    <img id="list-img" src="https://preview.redd.it/90mjr2jyp4zz.jpg?auto=webp&s=a9f858e3a1fb71e9516f1346b8140f2df5a45945" width="2%">
+                </li>
+                <li id="list-item">THE Log
+                    <img id="list-img" src="https://static.wikia.nocookie.net/clashroyale/images/4/4d/TheLogCard.png/revision/latest?cb=20171212203703" width="12%">
+                </li>
+                <li id="list-item">Valkyrie
+                    <img id="list-img" src="https://cdn.royaleapi.com/static/img/cards/valkyrie.png?t=2d912e5fc" width="12%">
+                </li>
+            </ol>
+        </div>
+        <div id="input-n-button">
+            <input id="centered" type="text" placeholder="Enter a favorite card">
+            <input id="centered" type="text" placeholder="Enter another favorite card">
+            <button id="centered"> 
+                Deck me out! 
+            </button>
+        </div>
 
         <!--
             <p>Go back to <a href="../FakeGoogle/index.html" target="_blank">google</a> </p>

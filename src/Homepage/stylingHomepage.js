@@ -1,8 +1,11 @@
-// theme options for font: space, scary, military, romantic, cowboy, fantasy, superhero
-favouriteMovieGenre("space")
+// theme options for font: 
+// space, scary, military, romantic, cowboy, fantasy, superhero
+favouriteMovieGenre("military")
 
-// theme options for text/bg color: watermelon, tomato, banana, orange, avocado, blueberry
-favouriteFruit("blueberry")
+// theme options for text/bg color: 
+// watermelon, tomato, banana, orange, avocado, blueberry,
+// pastel, muted, love, sky, forrest, shiny
+favouriteFruit("orange")
 
 // theme options for color inversion: light, dark
 favouriteMode("light")

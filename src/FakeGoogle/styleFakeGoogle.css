@@ -43,3 +43,10 @@ button::hover {
     cursor: pointer;   
 }
 
+/*
+- display: block is to align elements in a stack. the default alignment is inline
+- there are some quirks associated with margin top and bottom
+- in order to center an element, the element needs to be display: block, 
+needs to be lesser than the size of the screen (adjust using width property)
+margin-left: auto and margin-right: auto
+*/
