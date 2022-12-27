@@ -31,10 +31,24 @@ body, html {
     font-family: var(--font);
 }
 
+#list {
+    display: block;
+    margin: auto;
+}
+
+#input-n-button {
+    display: block;
+    margin: auto; 
+}
+
+#list-img {
+    width: 50px;
+}
+
 img {
     width: 30%;
-    border-radius: calc(var(--image) * 2);
-    border: 4px solid var(--text);
+    border-radius: calc(var(--image));
+    border: 1px solid var(--text);
 }
 
 a {
@@ -43,8 +57,8 @@ a {
 
 input {
     display: block;
-    margin: 20px 0 0;
-    width: 160px;
+    margin: 20px auto;
+    width: 300px;
     box-sizing: border-box;
     padding: 4px 8px;
     border-width: 1px; 
@@ -69,8 +83,12 @@ button {
     font-weight: bold;
     box-sizing: border-box;
     display: block;
-    margin: 8px 0;
+    margin: auto;
     cursor: pointer;
     font-family: var(--font);
-    width: 160px;
+    width: 300px;
+}
+
+#centered {
+    text-align: center;
 }
