@@ -8,7 +8,7 @@ const ContactCard = (props) => {
 
     return (
         <div className="item">
-            <img className="ui mega knight image" src={mega_knight} alt="mega_knight" />
+            <img width="50px" className="ui mega knight image" src={mega_knight} alt="mega_knight" />
             <div className="content">
                 <div className="header">
                     {name}
