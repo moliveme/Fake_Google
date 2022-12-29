@@ -85,13 +85,16 @@ a {
     text-align: center;
 }
 
-#list-img {
-    margin: 70px;
+
+img {
     width: 20%;
 }
 
+.list-item-names {
+    text-align: center;
+}
+
 #list-itemName {
-    margin-left: 140px;
-    margin-right: 140px;
     margin-bottom: 70px;
 }
+
