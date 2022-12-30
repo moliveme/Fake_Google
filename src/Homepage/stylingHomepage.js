@@ -8,7 +8,7 @@ favouriteMovieGenre("military")
 favouriteFruit("orange")
 
 // theme options for color inversion: light, dark
-favouriteMode("light")
+favouriteMode("dark")
 
 // theme options for roundness of buttons, etc: sharp, soft, round
 favouriteEdgeStyle("soft")
