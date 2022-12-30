@@ -66,9 +66,13 @@ body, html {
     padding: 10px;
     */
 
+    /* 
     background: var(--background);
+     */
+    
     color: var(--text);
     font-family: var(--font);
+    background-image: url("./clark-van-der-beken-chcyjyRQV74-unsplash.jpg");
 }
 
 a {
@@ -86,15 +90,25 @@ a {
 }
 
 
-img {
-    width: 20%;
+.top3-img {
+    width: 50%;
 }
 
-.list-item-names {
-    text-align: center;
+.list-top3 {
+    display: flex;
+    justify-content: space-evenly;
 }
 
-#list-itemName {
-    margin-bottom: 70px;
+.top3-itemName {
+    margin-top: 30px;
 }
 
+/*
+- flexbox is naturally dispaly block
+- html can handle (displaying?) audio video multimedia!!!
+- not all properties (when applied to an element) are inherited 
+by the element's children
+- but inheritance good
+- there are web safe fonts! (fonts that are already installed 
+on client and dont have to be sent to client by server)
+*/
