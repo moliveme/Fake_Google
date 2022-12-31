@@ -1,4 +1,18 @@
-#input-n-button {
+.navbar {
+    display: inline-flex;
+    overflow: hidden;
+    position: fixed;
+    background-color: #397d6c;
+    top: 0;
+    width: 100%;
+}
+
+.main {
+    height: 1000px;
+    margin-top: 120px;
+}
+
+.input-n-button {
     display: block;
     margin: auto; 
 }
@@ -73,6 +87,13 @@ body, html {
     color: var(--text);
     font-family: var(--font);
     background-image: url("./clark-van-der-beken-chcyjyRQV74-unsplash.jpg");
+    background-position: center;
+    background-size: 3000px;
+    opacity: 0.92;
+}
+
+.background {
+    
 }
 
 a {
@@ -83,7 +104,7 @@ a {
     color: var(--text);
 }
 
-#centered {
+.centered {
     display: block;
     margin: 10px auto;
     text-align: center;
@@ -111,4 +132,8 @@ by the element's children
 - but inheritance good
 - there are web safe fonts! (fonts that are already installed 
 on client and dont have to be sent to client by server)
+- <span> is for targetting a specific part of an element/text block
+inline
+- convention: id is used for single use
+class is when many elements need the same styling (multiple use)
 */

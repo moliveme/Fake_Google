@@ -10,66 +10,75 @@
     <!--
         div is used as a container
     -->
-        <h1 id="centered">Get Decked!</h1>
-        <h4 id="centered">Input two favorite cards, get a full deck recommendation!</h4>
-        <h1 id="centered">Some popular clash royale cards</h1>
 
-        <!--
-        <p>paragraphs are cool! laurem ipsum yes but this is a long paragraph about why I like eggs. eggs are cool and all but i also like to eat wild eggs. they're different. they're not like other eggs. there's something about them that's so exotic. they make me feel special.</p>
-
-        -->
-
-        <!--
-            img is a self closing tag
-            width helps image move as you resize browser window
-        
-        <img src="mega_knight.png" width="100%">
-        <img src="https://static.wikia.nocookie.net/clashroyale/images/c/cb/MagicArcherCard.png/revision/latest?cb=20180212145114" width="100%">
-
-        -->
-        <!--
-            type attribute can also be time, date, color, file, submit button!!! 
-        -->
-
-        <div style="width: 100%;" id="list">
+        <div class="background">
+            <div class="navbar">
+                <img style="display: inline" src="./temp_logo.png" alt="temporary logo" width="80px">
+                <h1 style="display: inline">Get Decked!</h1>
+            </div>
             
-            <div class="list-top3">
+            <div class="main">
+                <h4 class="centered">Input two favorite cards, get a full deck recommendation!</h4>
+                <h1 class="centered">Some popular clash royale cards</h1>
 
-                <div>
-                    <img class="top3-img" src="https://static.wikia.nocookie.net/clashroyale/images/d/d0/SkeletonArmyCard.png/revision/latest?cb=20171212203647" alt="Skeleton Army clash royale Card">
-                    <div class="top3-itemName">1. Skarmy</div>
+                <!--
+                <p>paragraphs are cool! laurem ipsum yes but this is a long paragraph about why I like eggs. eggs are cool and all but i also like to eat wild eggs. they're different. they're not like other eggs. there's something about them that's so exotic. they make me feel special.</p>
+
+                -->
+
+                <!--
+                    img is a self closing tag
+                    width helps image move as you resize browser window
+                
+                <img src="mega_knight.png" width="100%">
+                <img src="https://static.wikia.nocookie.net/clashroyale/images/c/cb/MagicArcherCard.png/revision/latest?cb=20180212145114" width="100%">
+
+                -->
+                <!--
+                    type attribute can also be time, date, color, file, submit button!!! 
+                -->
+
+                <div style="width: 100%;" class="list">
+                    
+                    <div class="list-top3">
+
+                        <div>
+                            <img class="top3-img" src="https://static.wikia.nocookie.net/clashroyale/images/d/d0/SkeletonArmyCard.png/revision/latest?cb=20171212203647" alt="Skeleton Army clash royale Card">
+                            <div class="top3-itemName">1. Skarmy</div>
+                        </div>
+
+                        <div>
+                            <img class="top3-img" src="https://static.wikia.nocookie.net/clashroyale/images/4/4d/TheLogCard.png/revision/latest?cb=20171212203703" alt="The Log clash royale card">
+                            <div class="top3-itemName">2. THE Log</div>
+                        </div>
+
+                        <div>
+                            <img class="top3-img" src="https://cdn.royaleapi.com/static/img/cards/valkyrie.png?t=2d912e5fc" alt="Valkyrie clash royale card">
+                            <div class="top3-itemName">3. Valkyrie</div>
+                        </div>
+
+                    </div>
+
                 </div>
 
-                <div>
-                    <img class="top3-img" src="https://static.wikia.nocookie.net/clashroyale/images/4/4d/TheLogCard.png/revision/latest?cb=20171212203703" alt="The Log clash royale card">
-                    <div class="top3-itemName">2. THE Log</div>
+                <div class="inputs-n-buttons">
+                    <div style="margin-top: 100px" class="one-input-or-button">
+                        <input class="centered" type="text" placeholder="Enter a favorite card">
+                    </div>
+                    <div class="one-input-or-button">
+                        <input class="centered" type="text" placeholder="Enter another favorite card">
+                    </div>
+                    <div class="one-input-or-button">
+                        <button class="centered"> 
+                            Deck me out! 
+                        </button>
+                    </div>
                 </div>
 
-                <div>
-                    <img class="top3-img" src="https://cdn.royaleapi.com/static/img/cards/valkyrie.png?t=2d912e5fc" alt="Valkyrie clash royale card">
-                    <div class="top3-itemName">3. Valkyrie</div>
-                </div>
-
+                <!--
+                    <p>Go back to <a href="../FakeGoogle/index.html" target="_blank">google</a> </p>
+                -->
             </div>
-
         </div>
-
-        <div id="inputs-n-buttons">
-            <div style="margin-top: 100px" id="one-input-or-button">
-                <input id="centered" type="text" placeholder="Enter a favorite card">
-            </div>
-            <div id="one-input-or-button">
-                <input id="centered" type="text" placeholder="Enter another favorite card">
-            </div>
-            <div id="one-input-or-button">
-                <button id="centered"> 
-                    Deck me out! 
-                </button>
-            </div>
-        </div>
-
-        <!--
-            <p>Go back to <a href="../FakeGoogle/index.html" target="_blank">google</a> </p>
-        -->
     </body>
 </html>
