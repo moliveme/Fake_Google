@@ -1,20 +1,10 @@
-.navbar {
-    display: inline-flex;
-    overflow: hidden;
-    position: fixed;
-    background-color: #397d6c;
-    top: 0;
-    width: 100%;
+
+a {
+    color: var(--text);
 }
 
-.main {
-    height: 1000px;
-    margin-top: 120px;
-}
-
-.input-n-button {
-    display: block;
-    margin: auto; 
+::placeholder {
+    color: var(--text);
 }
 
 input {
@@ -86,22 +76,31 @@ body, html {
     
     color: var(--text);
     font-family: var(--font);
-    background-image: url("./clark-van-der-beken-chcyjyRQV74-unsplash.jpg");
-    background-position: center;
-    background-size: 3000px;
-    opacity: 0.92;
+    background-image: url("./hologram_multicolor_gif.webp");
+    background-size: contain;
+    opacity: 0.9;
+    margin: 0px;
 }
 
-.background {
-    
+.navbar {
+    display: inline-flex;
+    overflow: hidden;
+    position: fixed;
+    background-color: #397d6c;
+    top: 0;
+    width: 100%;
+    padding: 0;
+    margin-left: 0;
 }
 
-a {
-    color: var(--text);
-}
-
-::placeholder {
-    color: var(--text);
+.main {
+    height: 1000px;
+    margin-top: 80px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 20px;
+    padding-bottom: 0;
 }
 
 .centered {
@@ -117,12 +116,22 @@ a {
 
 .list-top3 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .top3-itemName {
     margin-top: 30px;
 }
+
+.list {
+    padding-left: 80px;
+}
+
+.input-n-button {
+    display: block;
+    margin: auto; 
+}
+
 
 /*
 - flexbox is naturally dispaly block
