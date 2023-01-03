@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(82, 184, 160);
+    background: linear-gradient(#a36a15, #9ca226);
     color: #eef3f7;
     text-shadow: 3px 3px 5px #284661;
 }
@@ -8,8 +8,8 @@ body {
     width: 30%;
     display: block;
     margin: auto;
-    border: 5px solid #284661;
-    border-radius: 100%;
+    border-left: 10px solid #284661;
+    border-bottom: 7px solid #284661;
 }
 
 .text {
